@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: calc(100%/3);
+}
+.yellow {
+    background: yellow;
+}
+.blue {
+    background: blue;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+.item {
+    border: 1px solid black;
+    flex: 1 0 calc(100%/7);
+}
+.two {
+    flex: 2 0 calc(200%/7);
+}
